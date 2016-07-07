@@ -1,0 +1,94 @@
+html {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 12pt;
+	background: #fefefe;
+}
+
+a {
+	text-decoration: none;
+	color: #666633;
+}
+
+a:hover {
+	color: #999966;
+}
+
+.main {
+	float: left;
+	text-align: center;
+	min-width: 50%;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 360px;
+	height: 53px;
+}
+
+.music-links {
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+	font-size: 1.3em;
+}
+
+.social-links {
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+}
+
+.social-icon {
+	width: 48px;
+	height: 48px;
+	margin-left: 1ex;
+	margin-right: 1ex;
+}
+
+#band-columns {
+	float: right;
+	max-width: 50%;
+	height: auto;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #000000;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.3em;
+}
+
+table.shows {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1ex;
+	width: 90%;
+}
+
+table.shows td {
+	border: 2px solid #fefefe;
+	background: #cccc99;
+}
+
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+		float: none;
+	}
+
+	#band-columns {
+		float: none;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
