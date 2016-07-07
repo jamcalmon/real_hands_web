@@ -13,11 +13,13 @@ a:hover {
 	color: #999966;
 }
 
+
 .main {
 	float: left;
 	text-align: center;
 	min-width: 50%;
 }
+
 
 .logo {
 	display: block;
@@ -81,6 +83,7 @@ table.shows td {
 	.main {
 		width: 100%;
 		float: none;
+		text-align: center;
 	}
 
 	#band-columns {
