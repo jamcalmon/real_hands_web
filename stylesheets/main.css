@@ -1,7 +1,6 @@
 html {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 12pt;
-	background: #fefefe;
 }
 
 a {
@@ -13,10 +12,20 @@ a:hover {
 	color: #999966;
 }
 
+body {
+	background: #cccc99;
+}
+
 .main {
-	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3ex;
+	margin-top: 3ex;
+	padding-bottom: 2ex;
+	padding-top: 2ex;
 	text-align: center;
-	min-width: 50%;
+	width: 90%;
+	background: #fefefe;
 }
 
 .logo {
@@ -45,10 +54,15 @@ a:hover {
 	margin-right: 1ex;
 }
 
+#band-columns-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+}
+
 #band-columns {
-	float: right;
-	max-width: 50%;
-	height: auto;
+	width: 640px;
+	height: 640px;
 }
 
 hr {
@@ -66,6 +80,7 @@ h1 {
 }
 
 table.shows {
+	display: none;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1ex;
@@ -78,16 +93,21 @@ table.shows td {
 }
 
 @media screen and (max-width: 800px) {
+	body {
+		background: #fefefe;
+	}
+
 	.main {
 		width: 100%;
-		float: none;
+	}
+
+	#band-columns-wrapper {
+		max-width: 100%;
 	}
 
 	#band-columns {
-		float: none;
 		max-width: 100%;
 		height: auto;
-		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
