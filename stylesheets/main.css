@@ -79,17 +79,23 @@ h1 {
 	font-size: 1.3em;
 }
 
-table.shows {
-	display: none;
+#shows-list {
+	display: table;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1ex;
 	width: 90%;
 }
 
-table.shows td {
+#shows-list .show {
+	display: table-row;
+}
+
+#shows-list .show-info {
+	display: table-cell;
 	border: 2px solid #fefefe;
-	background: #cccc99;
+	background-color: gainsboro;
+	padding: 0.5em 0 0.5em 0;
 }
 
 @media screen and (max-width: 800px) {
